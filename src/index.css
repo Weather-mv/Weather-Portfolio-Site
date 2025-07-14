@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 
 
+@font-face {
+  font-family: 'cocosharp regular';
+  src: url(fonts/Coco-Sharp-Regular-trial.ttf);
+}
+
+@font-face {
+  font-family: 'cocosharp bold';
+  src: url(fonts/Coco-Sharp-Bold-trial.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,4 +45,69 @@ body {
 .nav-icon {
   height: auto;
   width: 30px;
+}
+
+
+/* Home Page Design*/
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile-title h1 {
+  font-family: 'cocosharp bold';
+  font-size: 22px;
+}
+
+.profile-title h2 {
+  font-family: 'cocosharp regular';
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.profile-title h3 {
+  font-family: 'inter';
+  font-weight: 350;
+  font-size: 12px;
+}
+
+.contact-btn {
+  height: 35.55px;
+  width: 154.96px;
+  background-color: #F9FCFF;
+  border: 2px solid #D1E6FF;
+  border-radius: 12px;
+  font-family: 'montserrat';
+  font-weight: 700;
+}
+
+.copy-btn {
+  height: 35.55px;
+  width: 154.96px;
+  background-color: #F9FCFF;
+  border: 2px solid #D1E6FF;
+  border-radius: 12px;
+  font-family: 'montserrat';
+  font-weight: 700;
+}
+
+.about-section h1 {
+  font-family: 'montserrat';
+  font-weight: 700;
+}
+
+.about-section p {
+  font-family: 'inter';
+  font-weight: 400;
+}
+
+.projects-detail h1 {
+  font-family: montserrat;
+  font-weight: 700;
+}
+
+.profile-title {
+  display: flex;
 }

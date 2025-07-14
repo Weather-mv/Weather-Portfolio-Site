@@ -16,8 +16,11 @@ const Navbar = () => {
                 <li className='nav-item'><Link to='/' className='nav-link'><img src={homeicon} alt="home"  className='nav-icon'/></Link></li>
                 <li className='nav-item'><Link to='/project' className='nav-link'><img src={projecticon} alt="project"  className='nav-icon'/></Link></li>
                 <li className='nav-item'><Link to='/contact' className='nav-link'><img src={contacticon} alt="contact"  className='nav-icon'/></Link></li>
+               
             </ul>
+            
         </div>
+       
     </nav>
   )
 }
