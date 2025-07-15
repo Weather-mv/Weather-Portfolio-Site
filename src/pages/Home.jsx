@@ -27,14 +27,15 @@ const Home = () => {
         <h1>About</h1>
         <p>
           I am Mousam Vishwakarma, a designer / developer / engineer.
+        </p>
+        <h3>
           with a deep passion in building things, i’m passionate frontend 
           developer / designer with a relentless curiosity.   
 
           I live for clean code, seamless user experiences, and uncovering 
           the ‘WHY’ behind every challenge. With a boundless energy and 
           a knack for learning technologies i wasn’t required to master. 
-
-        </p>
+        </h3>
       </div>
 
       <div className='projects-detail'>
